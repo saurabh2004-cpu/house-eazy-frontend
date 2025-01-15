@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import ProcessSection from "@/components/ProcessSection";
 import PropertyCarousel from "@/components/PropertyCarousel";
 import TestimonialCarousel from "@/components/TestimonialsCarousel";
+import WhyBuyFromUs from "@/components/WhyBuyFromUs";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutSection />
       <ProcessSection />
       <TestimonialCarousel />
+      <WhyBuyFromUs />
     </div>
   );
 }
